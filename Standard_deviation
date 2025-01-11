@@ -1,0 +1,11 @@
+Standard deviation : It basically check how far, a value is from the mean i.e from the centre of the data
+
+#SD for Population
+import numpy as np
+values = [4,11,7,14]
+x = np.std(values)
+
+#SD for sample
+values = [4,11,7,14]
+import numpy as np
+x = np.std(values, ddof=1)
