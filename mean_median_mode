@@ -1,0 +1,14 @@
+import numpy as np
+values = [13, 21, 21, 40, 42, 48, 55, 72]
+
+#mean 
+mean_result = np.mean(values)
+
+#median
+median_result = np.median(values)
+
+#mode 
+from statistics import multimode
+mode_result = np.multimode(value)
+
+
