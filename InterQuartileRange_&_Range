@@ -1,0 +1,13 @@
+InterQuartileRange(IQR) : distance between the first quartile and third quartile
+Range : distance between the smallest and largest value in a data
+
+#IQR 
+values = [13,21,21,40,42,48,5,72]
+from scipy import stats
+x = stats.iqr(values)
+x
+
+#Range
+values = [13,21,21,40,42,48,5,72]
+import numpy as np
+y = np.ptp(values)
