@@ -1,0 +1,13 @@
+Quartiles is the values that separates data into 4 equal parts
+Percentiles is the values that separates data into 100 equal parts 
+
+import numpy as np
+values = [13,21,21,40,42,48,5,72]
+
+#Quartiles
+x = np.quantile(values, [0,0.25,0.75,1]
+x
+
+#Percentiles
+y = np.percentile(values,[25,75])
+y
