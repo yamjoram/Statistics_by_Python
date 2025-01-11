@@ -9,3 +9,9 @@ x = np.std(values)
 values = [4,11,7,14]
 import numpy as np
 x = np.std(values, ddof=1)
+
+
+Key takeaway:
+
+Use ddof=0 if you have data for the entire population.
+Use ddof=1 (the default for most statistical analyses) if you have a sample of data.
