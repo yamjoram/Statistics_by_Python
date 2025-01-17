@@ -1,0 +1,16 @@
+import scipy.stats as stats
+import math
+
+# Specify the number of occurrences (x), the sample size (n), and the proportion claimed in the null-hypothesis (p)
+x = 10
+n = 40
+p = 0.2
+
+# Calculate the sample proportion
+p_hat = x/n
+
+# Calculate the test statistic
+test_stat = (p_hat-p)/(math.sqrt((p*(1-p))/(n)))
+
+# Output the p-value of the test statistic (right tailed test)
+print(1-stats.norm.cdf(test_stat))
